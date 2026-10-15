@@ -1,7 +1,7 @@
 
 public class SavingsAccount extends Account {
     private final double minimumBalance;
-    private static final double MONTHLY_INTEREST_RATE = 0.02; // 2% per month
+    private static final double MONTHLY_INTEREST_RATE = 0.02; 
 
     public SavingsAccount(String accountNumber, double initialBalance, double minimumBalance) {
         super(accountNumber, initialBalance);
